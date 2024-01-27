@@ -15,7 +15,7 @@ order by 2,3
 
 
 
---The percentage of deaths of people with Corona disease
+--The percentage of deaths of people with Corona virus
 select continent,location,date,total_cases,new_cases,total_deaths,(total_deaths/total_cases)*100 as dethspercentage
 from [portfolio project ]..CovidDeaths
 where continent is not null
